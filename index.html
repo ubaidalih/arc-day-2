@@ -1,0 +1,54 @@
+<!-- 
+    Nama    : Ubaidillah Ariq Prathama
+    NIM     : 16520308 
+    Fitur baru : Google app, footer (pada css mulai sekitar line 118)
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ARC Search</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="Icon" type="image/jpg" href="./favicon.ico" />
+  </head>
+  <body>
+    <nav>
+      <a href="https://mail.google.com">Gmail</a>
+      <a href="https://www.google.com/imghp">Images</a>
+      <!--Fitur baru, google apps-->
+      <a href="https://about.google/intl/en/products/">
+        <img src="./kotak.png" alt="Google Apps" />
+      </a>
+      <img src="./bussiness-man.png" alt="Profile Thumbnail" />
+    </nav>
+    <form action="https://google.com/search">
+      <img src="./arc-search-logo.webp" alt="Main Logo" id="main-logo" />
+      <div id="searchbar">
+        <img
+          src="./search-24px.svg"
+          alt="search-icon"
+          id="search"
+          class="icon"
+        />
+        <input type="text" name="q" />
+        <img src="./mic-24px.svg" alt="gambar mik" id="mic" class="icon" />
+      </div>
+      <div id="buttons">
+        <button type="submit">Google Search</button>
+        <button type="submit">I'm Feeling Lucky</button>
+      </div>
+    </form>
+    <p>
+      ARC Offered in:
+      <a href="https://arc.itb.ac.id">Institut Teknologi Bandung</a>
+    </p>
+    <!--Fitur baru, footer Indonesia-->
+    <!--footer hanya terlihat pada layar lebar-->
+    <div class="footer">
+      <p>Indonesia</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
